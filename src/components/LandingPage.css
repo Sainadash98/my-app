@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'serif';
+  background-color: #d7cdcd;
+}
+
+.welcome-section {
+  height: 100vh;
+  background: linear-gradient(135deg, #1f1c2c, #928dab);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  text-align: center;
+}
+
+.title {
+  font-size: 3rem;
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  opacity: 0.8;
+  margin-top: 10px;
+}
+
+.preview-next-section {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background: #ffffffaa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #1f1c2c;
+  font-size: 1rem;
+  font-weight: bold;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+.signin-section {
+  height: 100vh;
+  background: linear-gradient(135deg, #8e9eab, #eef2f3);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #333;
+}
+
+button {
+  margin: 12px;
+  padding: 14px 24px;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  width: 250px;
+  transition: all 0.3s ease;
+}
+
+.google {
+  background-color: #db4437;
+  color: white;
+}
+
+.google:hover {
+  background-color: #c1351d;
+}
+
+.linkedin {
+  background-color: #0077b5;
+  color: white;
+}
+
+.linkedin:hover {
+  background-color: #005e93;
+}
