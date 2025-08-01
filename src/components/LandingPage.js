@@ -35,9 +35,8 @@ const LandingPage = () => {
           animate={{ y: 0 }}
           transition={{ duration: 1 }}
         >
-          <h2>Continue with</h2>
-          <button className="google">Google</button>
-          <button className="linkedin">LinkedIn</button>
+          <button className="google">Continue with Google</button>
+          <button className="linkedin">Continue with LinkedIn</button>
         </motion.div>
       )}
     </div>
